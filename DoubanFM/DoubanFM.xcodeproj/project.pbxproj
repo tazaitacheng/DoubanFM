@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A55D5609E35DD4E80788D5B /* libPods-DoubanFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D9D41BB1EB2B57695363F0 /* libPods-DoubanFM.a */; };
+		62911EAA1CD1B8130055542A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62911EA91CD1B8130055542A /* main.m */; };
+		62911EAD1CD1B8130055542A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62911EAC1CD1B8130055542A /* AppDelegate.m */; };
+		62911EB01CD1B8130055542A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62911EAF1CD1B8130055542A /* ViewController.m */; };
+		62911EB31CD1B8130055542A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62911EB11CD1B8130055542A /* Main.storyboard */; };
+		62911EB51CD1B8130055542A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62911EB41CD1B8130055542A /* Assets.xcassets */; };
+		62911EB81CD1B8130055542A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62911EB61CD1B8130055542A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E530D9F9B61A31E1120935D /* Pods-DoubanFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanFM/Pods-DoubanFM.debug.xcconfig"; sourceTree = "<group>"; };
+		62911EA51CD1B8130055542A /* DoubanFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62911EA91CD1B8130055542A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62911EAB1CD1B8130055542A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62911EAC1CD1B8130055542A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62911EAE1CD1B8130055542A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62911EAF1CD1B8130055542A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62911EB21CD1B8130055542A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62911EB41CD1B8130055542A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62911EB71CD1B8130055542A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62911EB91CD1B8130055542A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629585E44B6BADBEA0618B3E /* Pods-DoubanFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanFM/Pods-DoubanFM.release.xcconfig"; sourceTree = "<group>"; };
+		B4D9D41BB1EB2B57695363F0 /* libPods-DoubanFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoubanFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62911EA21CD1B8130055542A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A55D5609E35DD4E80788D5B /* libPods-DoubanFM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED23FE4435B6F40C141C381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E530D9F9B61A31E1120935D /* Pods-DoubanFM.debug.xcconfig */,
+				629585E44B6BADBEA0618B3E /* Pods-DoubanFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		613BDA56F5063F6B1BADB068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4D9D41BB1EB2B57695363F0 /* libPods-DoubanFM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62911E9C1CD1B8130055542A = {
+			isa = PBXGroup;
+			children = (
+				62911EA71CD1B8130055542A /* DoubanFM */,
+				62911EA61CD1B8130055542A /* Products */,
+				0ED23FE4435B6F40C141C381 /* Pods */,
+				613BDA56F5063F6B1BADB068 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62911EA61CD1B8130055542A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62911EA51CD1B8130055542A /* DoubanFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62911EA71CD1B8130055542A /* DoubanFM */ = {
+			isa = PBXGroup;
+			children = (
+				62911EAB1CD1B8130055542A /* AppDelegate.h */,
+				62911EAC1CD1B8130055542A /* AppDelegate.m */,
+				62911EAE1CD1B8130055542A /* ViewController.h */,
+				62911EAF1CD1B8130055542A /* ViewController.m */,
+				62911EB11CD1B8130055542A /* Main.storyboard */,
+				62911EB41CD1B8130055542A /* Assets.xcassets */,
+				62911EB61CD1B8130055542A /* LaunchScreen.storyboard */,
+				62911EB91CD1B8130055542A /* Info.plist */,
+				62911EA81CD1B8130055542A /* Supporting Files */,
+			);
+			path = DoubanFM;
+			sourceTree = "<group>";
+		};
+		62911EA81CD1B8130055542A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62911EA91CD1B8130055542A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62911EA41CD1B8130055542A /* DoubanFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62911EBC1CD1B8130055542A /* Build configuration list for PBXNativeTarget "DoubanFM" */;
+			buildPhases = (
+				0ACBC148A2C6630CDD164132 /* 📦 Check Pods Manifest.lock */,
+				62911EA11CD1B8130055542A /* Sources */,
+				62911EA21CD1B8130055542A /* Frameworks */,
+				62911EA31CD1B8130055542A /* Resources */,
+				4E3E79FAA4D20EBC096888EE /* 📦 Embed Pods Frameworks */,
+				8852C20632AF1555BDF50924 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubanFM;
+			productName = DoubanFM;
+			productReference = 62911EA51CD1B8130055542A /* DoubanFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62911E9D1CD1B8130055542A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "何健";
+				TargetAttributes = {
+					62911EA41CD1B8130055542A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 62911EA01CD1B8130055542A /* Build configuration list for PBXProject "DoubanFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62911E9C1CD1B8130055542A;
+			productRefGroup = 62911EA61CD1B8130055542A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62911EA41CD1B8130055542A /* DoubanFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62911EA31CD1B8130055542A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62911EB81CD1B8130055542A /* LaunchScreen.storyboard in Resources */,
+				62911EB51CD1B8130055542A /* Assets.xcassets in Resources */,
+				62911EB31CD1B8130055542A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACBC148A2C6630CDD164132 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E3E79FAA4D20EBC096888EE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoubanFM/Pods-DoubanFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8852C20632AF1555BDF50924 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoubanFM/Pods-DoubanFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62911EA11CD1B8130055542A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62911EB01CD1B8130055542A /* ViewController.m in Sources */,
+				62911EAD1CD1B8130055542A /* AppDelegate.m in Sources */,
+				62911EAA1CD1B8130055542A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62911EB11CD1B8130055542A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62911EB21CD1B8130055542A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62911EB61CD1B8130055542A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62911EB71CD1B8130055542A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62911EBA1CD1B8130055542A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62911EBB1CD1B8130055542A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62911EBD1CD1B8130055542A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E530D9F9B61A31E1120935D /* Pods-DoubanFM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhz.DoubanFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62911EBE1CD1B8130055542A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629585E44B6BADBEA0618B3E /* Pods-DoubanFM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhz.DoubanFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62911EA01CD1B8130055542A /* Build configuration list for PBXProject "DoubanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62911EBA1CD1B8130055542A /* Debug */,
+				62911EBB1CD1B8130055542A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62911EBC1CD1B8130055542A /* Build configuration list for PBXNativeTarget "DoubanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62911EBD1CD1B8130055542A /* Debug */,
+				62911EBE1CD1B8130055542A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62911E9D1CD1B8130055542A /* Project object */;
+}
