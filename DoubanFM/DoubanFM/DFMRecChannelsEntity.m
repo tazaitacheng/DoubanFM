@@ -1,13 +1,13 @@
 //
-//  ChannelsTableViewCell.h
+//  DFMRecChannelsEntity.m
 //  DoubanFM
 //
 //  Created by lkjy on 16/5/4.
 //  Copyright © 2016年 何健. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "DFMRecChannelsEntity.h"
 
-@interface ChannelsTableViewCell : UITableViewCell
+@implementation DFMRecChannelsEntity
 
 @end

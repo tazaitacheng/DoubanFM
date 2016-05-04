@@ -40,7 +40,7 @@
     playVC = [[PlayerViewController alloc] init];
     
     channelsVC = [[ChannelsTableViewController alloc] init];
-    channelsVC.delegate = (id)self;
+    //channelsVC.delegate = (id)self;
     userInfoVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"userInfoVC"];
     self.viewControllers = @[playVC,channelsVC,userInfoVC];
     
