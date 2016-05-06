@@ -24,6 +24,8 @@
 		623DE9021CDA19680025302C /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623DE9001CDA19680025302C /* ChannelsTableViewCell.xib */; };
 		623DE9061CDA1A0F0025302C /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623DE9041CDA1A0F0025302C /* ChannelsTableViewController.m */; };
 		623DE9071CDA1A0F0025302C /* ChannelsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623DE9051CDA1A0F0025302C /* ChannelsTableViewController.xib */; };
+		6290A3F21CDB6A5100BF804E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6290A3F11CDB6A5100BF804E /* NetworkManager.m */; };
+		6290A3F51CDB6A6F00BF804E /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6290A3F41CDB6A6F00BF804E /* PlayerController.m */; };
 		62911EAA1CD1B8130055542A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62911EA91CD1B8130055542A /* main.m */; };
 		62911EAD1CD1B8130055542A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62911EAC1CD1B8130055542A /* AppDelegate.m */; };
 		62911EB01CD1B8130055542A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62911EAF1CD1B8130055542A /* ViewController.m */; };
@@ -61,6 +63,10 @@
 		623DE9031CDA1A0F0025302C /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
 		623DE9041CDA1A0F0025302C /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 		623DE9051CDA1A0F0025302C /* ChannelsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewController.xib; sourceTree = "<group>"; };
+		6290A3F01CDB6A5100BF804E /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		6290A3F11CDB6A5100BF804E /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		6290A3F31CDB6A6F00BF804E /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
+		6290A3F41CDB6A6F00BF804E /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
 		62911EA51CD1B8130055542A /* DoubanFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62911EA91CD1B8130055542A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62911EAB1CD1B8130055542A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,6 +142,10 @@
 				0EE4C7C91CDA072F00396FB5 /* ProtocolClass.m */,
 				623DE8F21CDA18940025302C /* ChannelInfo.h */,
 				623DE8F31CDA18940025302C /* ChannelInfo.m */,
+				6290A3F01CDB6A5100BF804E /* NetworkManager.h */,
+				6290A3F11CDB6A5100BF804E /* NetworkManager.m */,
+				6290A3F31CDB6A6F00BF804E /* PlayerController.h */,
+				6290A3F41CDB6A6F00BF804E /* PlayerController.m */,
 				623DE8F51CDA18D00025302C /* DFMUpChannelsEntity.h */,
 				623DE8F61CDA18D00025302C /* DFMUpChannelsEntity.m */,
 				623DE8F81CDA18E30025302C /* DFMHotChannelsEntity.h */,
@@ -390,6 +400,7 @@
 				62911EAA1CD1B8130055542A /* main.m in Sources */,
 				623DE8F41CDA18940025302C /* ChannelInfo.m in Sources */,
 				623DE8FD1CDA18F30025302C /* DFMRecChannelsEntity.m in Sources */,
+				6290A3F51CDB6A6F00BF804E /* PlayerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

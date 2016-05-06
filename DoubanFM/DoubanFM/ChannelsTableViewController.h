@@ -11,8 +11,8 @@
 #import "ChannelsTableViewCell.h"
 #import "ChannelInfo.h"
 #import "AppDelegate.h"
-//#import "NetworkManager.h"
-//#import "PlayerController.h"
+#import "NetworkManager.h"
+#import "PlayerController.h"
 #import "ProtocolClass.h"
 
 @interface ChannelsTableViewController : UITableViewController <DoubanDelegate>

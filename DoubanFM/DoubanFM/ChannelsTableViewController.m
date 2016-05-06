@@ -7,8 +7,14 @@
 //
 
 #import "ChannelsTableViewController.h"
-
+#import <MJRefresh/MJRefresh.h>
 @interface ChannelsTableViewController ()
+{
+    AFHTTPRequestOperationManager *manager;
+    AppDelegate *appDelegate;
+    NetworkManager *networkManager;
+    PlayerController *playerController;
+}
 
 @end
 
@@ -17,12 +23,49 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.tableView.sectionHeaderHeight = 80;
+    self.tableView.rowHeight = 60;
+    //初始化工具类
+    appDelegate = [[UIApplication sharedApplication]delegate];
+    networkManager = [[NetworkManager alloc]init];
+    //networkManager.delegate = self;
+    playerController = [[PlayerController alloc]init];
+    //初始化tableviewCell
+    UINib *cell = [UINib nibWithNibName:@"ChannelsTableViewCell" bundle:nil];
+    [self.tableView registerNib:cell forCellReuseIdentifier:@"theReuseIdentifier"];
 }
+-(void)viewWillAppear:(BOOL)animated{
+    //用MJRefresh做下来刷新
+    [self.tableView addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(initChannelInfo)];
+    
+    // 设置文字
+    [self.tableView.header setTitle:@"往下拉可刷新哦" forState:MJRefreshHeaderStateIdle];
+    [self.tableView.header setTitle:@"松开来就刷新啦" forState:MJRefreshHeaderStatePulling];
+    [self.tableView.header setTitle:@"~~刷~~新~~中~~" forState:MJRefreshHeaderStateRefreshing];
+    
+    // 设置字体
+    self.tableView.header.font = [UIFont systemFontOfSize:15];
+    
+    // 设置颜色
+    self.tableView.header.textColor = [UIColor grayColor];
+    // 马上进入刷新状态
+    [self.tableView.header beginRefreshing];
+    
+    // 此时self.tableView.header == self.tableView.legendHeader
+    [super viewWillAppear:animated];
+}
+//-(void)initChannelInfo{
+//    if (appDelegate.userInfo.cookies == nil) {
+//        [networkManager setChannel:1 withURLWithString:@"http://douban.fm/j/explore/get_recommend_chl"];
+//    }
+//    else{
+//        [networkManager setChannel:1 withURLWithString:[NSString stringWithFormat:@"http://douban.fm/j/explore/get_login_chls?uk=%@",appDelegate.userInfo.userID]];
+//    }
+//    [networkManager setChannel:2 withURLWithString:@"http://douban.fm/j/explore/up_trending_channels"];
+//    [networkManager setChannel:3 withURLWithString:@"http://douban.fm/j/explore/hot_channels"];
+//    //MJRefresh停止刷新
+//    [self.tableView.header endRefreshing];
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -85,21 +128,20 @@
 }
 */
 
-/*
-#pragma mark - Table view delegate
 
-// In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here, for example:
-    // Create the next view controller.
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
-    
-    // Pass the selected object to the new view controller.
-    
-    // Push the view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
+#pragma mark - Table view delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [ChannelInfo updateCurrentCannel:[[[ChannelInfo channels] objectAtIndex:indexPath.section]objectAtIndex:indexPath.row]];
+    //[networkManager loadPlaylistwithType:@"n"];
+    [self.delegate menuButtonClicked:0];
+
 }
-*/
+
+- (void)reloadTableviewData
+{
+    [self.tableView reloadData];
+}
 
 /*
 #pragma mark - Navigation
