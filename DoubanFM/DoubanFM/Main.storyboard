@@ -27,6 +27,7 @@
                         <viewControllerLayoutGuide type="bottom" id="AAJ-tZ-Ggf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Nyz-xa-nay">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delete" translatesAutoresizingMaskIntoConstraints="NO" id="7jO-Gc-7Pv">
@@ -62,6 +63,7 @@
                         <viewControllerLayoutGuide type="bottom" id="RkQ-PZ-eP8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8hq-Vr-3KY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="albumBlock2" translatesAutoresizingMaskIntoConstraints="NO" id="DIU-H9-Epv">
