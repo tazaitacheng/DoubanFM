@@ -2,7 +2,7 @@
 //  UserInfo.h
 //  DoubanFM
 //
-//  Created by ljky on 16/5/5.
+//  Created by ljky on 16/5/6.
 //  Copyright © 2016年 何健. All rights reserved.
 //
 
